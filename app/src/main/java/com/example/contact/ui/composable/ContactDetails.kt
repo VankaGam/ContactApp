@@ -101,7 +101,7 @@ fun ContactDetails(contact: Contact, modifier: Modifier = Modifier) {
             InfoRow(label = stringResource(R.string.address), value = contact.address)
             if (!contact.email.isNullOrBlank()) {
                 Spacer(Modifier.height(12.dp))
-                InfoRow(label = stringResource(R.string.email), value = contact.email!!)
+                InfoRow(label = stringResource(R.string.email), value = contact.email)
             }
         }
     }
