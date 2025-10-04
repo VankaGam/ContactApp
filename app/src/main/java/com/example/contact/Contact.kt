@@ -2,7 +2,7 @@ package com.example.contact
 
 data class Contact(
     val name: String, //Имя
-    val surname: String? = null, //Отчество
+    val surname: String? = null, //Отчествоо
     val familyName: String, //Фамилия
     val imageRes: Int? = null,//Ресурс фотографии
     val isFavorite: Boolean = false,//Признак избранного контакта
