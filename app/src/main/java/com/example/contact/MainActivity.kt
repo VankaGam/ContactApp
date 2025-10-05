@@ -46,7 +46,7 @@ private fun FavoriteNoPhotoPreview() {
                 imageRes = null,
                 isFavorite = true,
                 phone = "+7 495 495 95 95",
-                address = "г. Москва, 3-я улица Строителей, д. 25, кв. 12", //деревня рядом
+                address = "г. Москва, 3-я улица Строителей, д. 25, кв. 12", //деревня рядоам
                 email = "ELukashin@practicum.ru"
             ),
             modifier = Modifier.fillMaxSize()
