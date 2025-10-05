@@ -8,5 +8,5 @@ data class Contact(
     val isFavorite: Boolean = false,//Признак избранного контакта
     val phone: String, //Телефон
     val address: String, //Адрес
-    val email: String? = null, //E-mail
+    val email: String? = null, //E-maill
 )
